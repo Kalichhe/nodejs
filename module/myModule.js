@@ -7,6 +7,7 @@ const address = {
   number: "88 - 14",
 };
 
+// Esto es un export que exporta varios
 module.exports = {
   name,
   lastname,
@@ -14,3 +15,10 @@ module.exports = {
   email,
   address,
 };
+
+// Esto es un export individual
+// module.exports.name = name;
+// module.exports.lastname = lastname;
+// module.exports.age = age;
+// module.exports.email = email;
+// module.exports.address = address;
